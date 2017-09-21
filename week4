@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	
+<style type="text/css">
+<!--
+.tab { margin-left: 40px; }
+-->
+</style>
+<body>
+<title> CS371p Fall 2017: Yoshinobu Nakada </title>
+<h1><b>CS371p Fall 2017: Yoshinobu Nakada</h1></b> <br>
+<h1><b>Week 2 Blog</h1></b> <br>
+<img src="http://chutai-ryugaku-report.info/wp-content/uploads/2017/02/20170902_165643.jpg" height="300" width="300"> <br><br>
+ 
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;">1. What did you do this past week? </span>
+</div>
+</h2>
+<p class = "tab">
+	I worked on the voting assignment from OOP class. 
+  The fact that the homework is very similar to those technical interviews from IT 
+  companies helps me a lot to get prepared for the next week interview that I am getting. 
+  It is relatively easy to pass the first and second test of HackerRank, but to pass the 
+  last test I really have to think about optimization, which makes me to learn a lot.
+</p>
+ 
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;"> 2. What's in your way? </span>
+</div>
+</h2>
+<p class = "tab">
+  Right now, I get confused with setting up Travis CI and 
+  makefile for the voting assignment. I will go to TAs office hour to figure that out.
+</p>
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;"> 3. What will you do next week? </span>
+</div>
+</h2>
+<p class = "tab">
+	Next week I am going to have several interviews with US and Japanese IT companies, 
+  so I will practice more coding problems beforehand. Also, the voting assignment is due Thursday,
+  so I will finish up that. If I have a time, I would probably attend Japanese conversation table at union. 
+</p>
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;"> 4. What's my experience of the class? </span>
+</div>
+</h2>
+<p class = "tab">. S
+	This week I learned a lot of things. For example, I didn't know that push_front 
+  is slower than push_back with vector. Also, I did not know that increasing the size 
+  of deque is cheaper than that of vector. Since technical interviews with IT companies 
+  make us to use some sort of data structures, it is very helpful to know all the 
+  advantage and disadvantages of each data structure.
+</p>
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;"> 5. What's my pick-of-the-week or tip-of-the-week? </span>
+</div>
+</h2>
+<p class = "tab">
+	My-pick-up-of-the-week is that we should stop using i++ by itself, since compiler 
+  will automatically change it to ++i!!!!! Previously, I thought I understand the difference between i++ and ++i,
+  yet after professor downing explained it, now I realized there were some parts I did not fully grasp. 
+</p>
+</body>
+</html>
