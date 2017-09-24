@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	
+<style type="text/css">
+<!--
+.tab { margin-left: 40px; }
+-->
+</style>
+<body>
+<title> CS371p Fall 2017: Yoshinobu Nakada </title>
+<h1><b>CS371p Fall 2017: Yoshinobu Nakada</h1></b> <br>
+<h1><b>Week 4 Blog</h1></b> <br>
+<img src="http://chutai-ryugaku-report.info/wp-content/uploads/2017/02/20170902_165643.jpg" height="300" width="300"> <br><br>
+ 
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;">1. What did you do this past week? </span>
+</div>
+</h2>
+<p class = "tab">
+	This past week I learned l-value, which can return its address, and r-value, which cannot return its address. 
+  For example, ++i = 2 will compile, but i++ = 3 won't compile because i++ will make a copy of i and return the copy, 
+  which is a r-value. I have already learned post and pre increment while I was in my previous college, yet I realized that I did not fully understand what
+  was actually going on.
+</p>
+ 
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;"> 2. What's in your way? </span>
+</div>
+</h2>
+<p class = "tab">
+  I've almost finished the second assignment, but I get confused with the makefile from the first assignment. So, for the 
+  first assignment, there is a directory named examples, and its makefile has a command for the examples directory. When I checked 
+  the contents inside of the examples directory, there were .gcov file and some other files which I did not create by myself. 
+  So for the second assignment, should I make a directory named examples? 
+</p>
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;"> 3. What will you do next week? </span>
+</div>
+</h2>
+<p class = "tab">
+	Since I have a interview with Microsoft, I will practice more coding problems. I am senior now, so it is almost time for 
+  me to decide where I am going to get a job, either in Japan or the US. If I actually get a internship from Microsoft, 
+  it will be very tough decision for me since I have already gotten a offer from some Japanese IT companies. 
+</p>
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;"> 4. What's my experience of the class? </span>
+</div>
+</h2>
+<p class = "tab">
+	This week I learned a lot of things. For example, I didn't know that push_front 
+  is slower than push_back with vector. Also, I did not know that increasing the size 
+  of deque is cheaper than that of vector. Since technical interviews with IT companies 
+  make us to use some sort of data structures, it is very helpful to know all the 
+  advantage and disadvantages of each data structure.
+  Also, I understand how exceptions work in Java, but not in c++ and our professor explained very well about 
+  the difference of exception between those two.
+</p>
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;"> 5. What's my pick-of-the-week or tip-of-the-week? </span>
+</div>
+</h2>
+<p class = "tab">
+	I noticed that the FoCS career fair, which is for students with high GPA and honors students, is really good place for
+  getting a interview with those big IT companies, such as Microsoft, Facebook and so on compared to the regular UT CNS Career
+  fair. That is because lines for those popular IT companies, Google, Microsoft and etc, are much shorter and recruiters are more
+  interested in us during the career fair than the regular one. I really recommend trying not to sluck off non-CS classes and 
+  keep GPA as high as possible. 
+</p>
+</body>
+</html>
