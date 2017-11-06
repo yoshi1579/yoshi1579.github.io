@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	
+<style type="text/css">
+<!--
+.tab { margin-left: 40px; }
+-->
+</style>
+<body>
+<title> CS371p Fall 2017: Yoshinobu Nakada </title>
+<h1><b>CS371p Fall 2017: Yoshinobu Nakada</h1></b> <br>
+<h1><b>Week 10 Blog</h1></b> <br>
+<img src="http://chutai-ryugaku-report.info/wp-content/uploads/2017/02/20170902_165643.jpg" height="300" width="300"> <br><br>
+ 
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;">1. What did you do this past week? </span>
+</div>
+</h2>
+<p class = "tab">
+    I have been working on a virtualization homework which is dealing with hypervisor. It was almost as difficult as 
+    CS 439 project since we had to deal with page table and virtual memory. In addition, we had to implement EPT 
+    (extended page table), which is used for virtual machine to create a map between VM's physical address to 
+    host machine's physical address.
+</p>
+ 
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;"> 2. What's in your way? </span>
+</div>
+</h2>
+<p class = "tab">
+  Right now I am having trouble with the Darwin homework from OOP class since for this assignment, we have to think about 
+  design for how each class interacts. The problem that I am facing is that, according to one of software design principles,
+  which I forgtot its name, with good design, when we have to add new features, we only have to extend the previous code,
+  instead of modifying it. So the problem is that the instruction of Darwin homework said we do not need to use inheritance.
+  However, if we want to add new instructions in the future, without using inheritance and virtual function, we have to 
+  modify our either switch statement or if else statements. Also, the instruction said that we cannot use getter and setters.
+  I totally understand why it is not good idea to use them, but our solution is to use pass by reference instead. In this
+  case, if a parent class change its function's passing arguments, its child class's function also need to be changed to 
+  take the new arguments. Is there any better way to avoid using getter and setters?
+</p>
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;"> 3. What will you do next week? </span>
+</div>
+</h2>
+<p class = "tab">
+  Next week I am having several interviews with US companies in Tokyo. So actually I bought a iPhone 6s for that since
+  it is a phone interview.(I had a really crappy cell phone with which I cannot even hear what people are saying over 
+  the phone.)
+</p>
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;"> 4. What's my experience of the class? </span>
+</div>
+</h2>
+<p class = "tab">
+  This week we learned how vector in c++ is implemented. Especially, how its constructors are implemented(move, copy assignment
+  copy constructor and so on). Also, we had a tech talk form under armer, which was really interested in a way that what we 
+  are learning in OOP class especially designing aspects are really important even in the actual software industry. 
+</p>
+<h2>
+<div style="border-left: 10px solid #32cd32; border-bottom: 2px solid #32cd32; padding-left: 10px; font-weight: bold;">
+	<span style="font-size: 19px;"> 5. What's my pick-of-the-week or tip-of-the-week? </span>
+</div>
+</h2>
+<p class = "tab">
+  In my virtualization class, as a project we have to contribute to an open source project, and I realized that working on
+  open source projects are a lot like working in an actual IT company since we have to use git and make pull request and
+  read actual codes being used in business.
+</p>
+</body>
+</html>
